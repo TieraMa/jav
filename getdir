@@ -1,0 +1,3 @@
+#!/bin/bash
+id=`echo $1 | tr [a-z] [A-Z]`
+ls -d "/data/hdd/JAV/(${id})"*
